@@ -347,13 +347,15 @@ http://localhost:8501
 ![Route Analysis](assets/screenshots/route.png)
 
 ## Interactive Map
-![Interactive Map](assets/screenshots/map.png)
+![Interactive Map](assets/screenshots/interactivemap.png)
 
 ## AI Recommendations
 ![AI Recommendations](assets/screenshots/ai.png)
 
 ## WhatsApp SOS
 ![WhatsApp SOS](assets/screenshots/sos.png)
+
+
 
 \# 🚀 Future Scope
 
