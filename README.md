@@ -341,19 +341,19 @@ http://localhost:8501
 # 📸 Screenshots
 
 ## Home Screen
-![Home Screen](assets/screenshots/home.png)
+![Home Screen](assets/Screenshots/home.png)
 
 ## Route Analysis
-![Route Analysis](assets/screenshots/route.png)
+![Route Analysis](assets/Screenshots/route.png)
 
 ## Interactive Map
-![Interactive Map](assets/screenshots/interactivemap.png)
+![Interactive Map](assets/Screenshots/interactivemap.png)
 
 ## AI Recommendations
-![AI Recommendations](assets/screenshots/ai.png)
+![AI Recommendations](assets/Screenshots/ai.png)
 
 ## WhatsApp SOS
-![WhatsApp SOS](assets/screenshots/sos.png)
+![WhatsApp SOS](assets/Screenshots/sos.png)
 
 
 
