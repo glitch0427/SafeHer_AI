@@ -1,0 +1,9 @@
+streamlit
+openai
+python-dotenv
+requests
+folium
+streamlit-folium
+plotly
+pandas
+numpy
