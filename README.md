@@ -355,6 +355,9 @@ http://localhost:8501
 ## WhatsApp SOS
 ![WhatsApp SOS](assets/Screenshots/sos.png)
 
+## Others
+![Others](assets/Screenshots/contacts.png)
+
 
 
 \# 🚀 Future Scope
