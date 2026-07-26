@@ -338,7 +338,22 @@ http://localhost:8501
 
 \---
 
+# 📸 Screenshots
 
+## Home Screen
+![Home Screen](assets/screenshots/home.png)
+
+## Route Analysis
+![Route Analysis](assets/screenshots/route.png)
+
+## Interactive Map
+![Interactive Map](assets/screenshots/map.png)
+
+## AI Recommendations
+![AI Recommendations](assets/screenshots/ai.png)
+
+## WhatsApp SOS
+![WhatsApp SOS](assets/screenshots/sos.png)
 
 \# 🚀 Future Scope
 
