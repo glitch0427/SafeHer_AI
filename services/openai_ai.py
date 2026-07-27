@@ -1,12 +1,13 @@
 import os
 from dotenv import load_dotenv
-from openai import OpenAI
+import google.generativeai as genai
 
 load_dotenv()
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
+model = genai.GenerativeModel("gemini-2.5-flash")
+
 
 def get_safety_advice(source, destination, travel_time, score):
 
@@ -36,9 +37,6 @@ Give the response in this format:
 Keep the response under 180 words.
 """
 
-    response = client.responses.create(
-        model="gpt-5",
-        input=prompt,
-    )
+    response = model.generate_content(prompt)
 
-    return response.output_text
+    return response.text
