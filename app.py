@@ -8,7 +8,7 @@ from services.routing import get_route
 from services.nearby_places import get_nearby_places
 from services.map_generator import create_map
 from services.safety_score import calculate_safety_score, get_risk_level
-from services.openai_ai import get_safety_advice
+from services.gemini_ai import get_safety_advice
 from services.sos import send_sos
 
 st.set_page_config(
@@ -313,7 +313,7 @@ if st.session_state.analysis_done:
 
     st.subheader("🤖 AI Safety Analysis")
 
-    with st.spinner("Analyzing route using OpenAI..."):
+    with st.spinner("Analyzing route using GeminiAI..."):
 
         try:
 
@@ -479,7 +479,7 @@ AI Powered Women's Safety Assistant
 
 Built using
 
-Streamlit ❤️ | OpenAI 🤖 | OpenStreetMap 🗺️ | OSRM 🚗
+Streamlit ❤️ | GeminiAI 🤖 | OpenStreetMap 🗺️ | OSRM 🚗
 
 </center>
 """,
