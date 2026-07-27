@@ -112,7 +112,7 @@ SafeHer AI combines Artificial Intelligence with open-source mapping technologie
 
 \- Overpass API
 
-\- OpenAI GPT-5 API
+\- Google Gemini API
 
 
 
@@ -130,7 +130,7 @@ SafeHer AI combines Artificial Intelligence with open-source mapping technologie
 
 \- Python-Dotenv
 
-\- OpenAI
+\- Google-generativeai
 
 
 
@@ -170,7 +170,7 @@ SafeHer\_AI/
 
 │   ├── safety\_score.py
 
-│   ├── openai\_ai.py
+│   ├── geminiai\_ai.py
 
 │   └── sos.py
 
@@ -270,7 +270,7 @@ Create a `.env` file in the project root and add your OpenAI API Key.
 
 ```env
 
-OPENAI\_API\_KEY=your\_openai\_api\_key
+GEMINI\_API\_KEY=your\_gemini\_api\_key
 
 ```
 
@@ -416,7 +416,7 @@ We would like to thank:
 
 
 
-\- OpenAI
+\- Google Gemini
 
 \- OpenStreetMap Community
 
